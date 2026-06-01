@@ -1030,12 +1030,6 @@ section:nth-child(even) { background: var(--bg-alt); }
   color: var(--sage);
 }
 
-.contact-phone {
-  font-size: 0.85rem;
-  color: rgba(255, 255, 255, 0.3);
-  letter-spacing: 0.05em;
-}
-
 /* ============================================================
    FOOTER
 ============================================================ */
