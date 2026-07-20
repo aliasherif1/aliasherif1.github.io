@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>الخدمات — علياء شريف</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Tajawal:wght@300;400;500;700;800&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Manrope:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+<script>
+  (function(){
+    try{
+      var saved = localStorage.getItem('theme');
+      if(saved === 'dark'){
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    }catch(e){}
+  })();
+</script>
+<style>
+  .under-construction{
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: var(--section-pad) 1.5rem;
+  }
+  .under-construction .eyebrow{ justify-content: center; }
+  .under-construction h2{ margin-top: 0.5rem; }
+  .under-construction p{
+    max-width: 480px;
+    margin: 1.25rem auto 0;
+    color: var(--charcoal-soft);
+  }
+  .under-construction .btn{ margin-top: 2rem; display: inline-block; }
+</style>
+</head>
+<body>
+
+<!-- ══════════════ NAV ══════════════ -->
+<nav id="navbar" class="scrolled">
+  <a href="index-ar.html#hero" class="nav-logo">علياء <span>شريف</span></a>
+  <div class="nav-right">
+    <ul class="nav-links">
+      <li><a href="index-ar.html#about">نبذة</a></li>
+      <li><a href="index-ar.html#expertise">الخبرات</a></li>
+      <li><a href="index-ar.html#impact">الأثر</a></li>
+      <li><a href="index-ar.html#journey">المسيرة</a></li>
+      <li><a href="index-ar.html#recognition">التقدير</a></li>
+      <li><a href="services-ar.html">الخدمات</a></li>
+      <li><a href="index-ar.html#contact" class="nav-cta">لنتحدث</a></li>
+    </ul>
+    <button class="theme-toggle" id="themeToggle" type="button" aria-label="تبديل الوضع الداكن">
+      <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.4M12 19.1v2.4M4.2 4.2l1.7 1.7M18.1 18.1l1.7 1.7M2.5 12h2.4M19.1 12h2.4M4.2 19.8l1.7-1.7M18.1 5.9l1.7-1.7"/></svg>
+      <svg class="icon-moon" viewBox="0 0 24 24" fill="currentColor"><path d="M20.6 15.1a8.7 8.7 0 01-10.7-10.7 9 9 0 1010.7 10.7z"/></svg>
+    </button>
+    <a href="services.html" class="lang-toggle" aria-label="Switch to English">EN</a>
+    <button class="nav-toggle" aria-label="فتح القائمة" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <ul>
+    <li><a href="index-ar.html#about" onclick="closeMobile()">نبذة</a></li>
+    <li><a href="index-ar.html#expertise" onclick="closeMobile()">الخبرات</a></li>
+    <li><a href="index-ar.html#impact" onclick="closeMobile()">الأثر</a></li>
+    <li><a href="index-ar.html#journey" onclick="closeMobile()">المسيرة</a></li>
+    <li><a href="index-ar.html#recognition" onclick="closeMobile()">التقدير</a></li>
+    <li><a href="services-ar.html" onclick="closeMobile()">الخدمات</a></li>
+    <li><a href="index-ar.html#contact" onclick="closeMobile()">تواصل</a></li>
+  </ul>
+</div>
+
+<!-- ══════════════ UNDER CONSTRUCTION ══════════════ -->
+<section id="services-page">
+  <div class="container under-construction">
+    <div>
+      <div class="eyebrow">الخدمات</div>
+      <h2 class="section-title">قيد الإنشاء.</h2>
+      <p>هذه الصفحة قيد التطوير حاليًا — تابعوا قريبًا لمعرفة تفاصيل الخدمات التي تقدمها علياء.</p>
+      <a href="index-ar.html#contact" class="btn btn-primary">تواصل معها بدلًا من ذلك</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ FOOTER ══════════════ -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">علياء <span>شريف</span></div>
+    <div class="footer-links">
+      <a href="index-ar.html#about">نبذة</a>
+      <a href="index-ar.html#impact">الأثر</a>
+      <a href="index-ar.html#contact">تواصل</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>مهندسة بيئية · القاهرة · إسطنبول · بودابست</span>
+    <span>© 2026 علياء شريف</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

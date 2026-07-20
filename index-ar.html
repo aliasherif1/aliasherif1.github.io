@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>علياء شريف — مهندسة بيئية وقائدة مناخية</title>
+<meta name="description" content="علياء شريف مهندسة بيئية وممارسة في مجال السياسات المناخية، تعمل في تقييم الأثر البيئي، وتخطيط إعادة التوطين، ومناصرة الشباب المناخية في منطقة الشرق الأوسط وشمال إفريقيا." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Tajawal:wght@300;400;500;700;800&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Manrope:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+<script>
+  (function(){
+    try{
+      var saved = localStorage.getItem('theme');
+      if(saved === 'dark'){
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    }catch(e){}
+  })();
+</script>
+</head>
+<body>
+
+<!-- ══════════════ NAV ══════════════ -->
+<nav id="navbar">
+  <a href="#hero" class="nav-logo">علياء <span>شريف</span></a>
+  <div class="nav-right">
+    <ul class="nav-links">
+      <li><a href="#about">نبذة</a></li>
+      <li><a href="#expertise">الخبرات</a></li>
+      <li><a href="#impact">الأثر</a></li>
+      <li><a href="#journey">المسيرة</a></li>
+      <li><a href="#recognition">التقدير</a></li>
+      <li><a href="services-ar.html">الخدمات</a></li>
+      <li><a href="#contact" class="nav-cta">لنتحدث</a></li>
+    </ul>
+    <button class="theme-toggle" id="themeToggle" type="button" aria-label="تبديل الوضع الداكن">
+      <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.4M12 19.1v2.4M4.2 4.2l1.7 1.7M18.1 18.1l1.7 1.7M2.5 12h2.4M19.1 12h2.4M4.2 19.8l1.7-1.7M18.1 5.9l1.7-1.7"/></svg>
+      <svg class="icon-moon" viewBox="0 0 24 24" fill="currentColor"><path d="M20.6 15.1a8.7 8.7 0 01-10.7-10.7 9 9 0 1010.7 10.7z"/></svg>
+    </button>
+    <a href="index.html" class="lang-toggle" aria-label="Switch to English">EN</a>
+    <button class="nav-toggle" aria-label="فتح القائمة" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <ul>
+    <li><a href="#about" onclick="closeMobile()">نبذة</a></li>
+    <li><a href="#expertise" onclick="closeMobile()">الخبرات</a></li>
+    <li><a href="#impact" onclick="closeMobile()">الأثر</a></li>
+    <li><a href="#journey" onclick="closeMobile()">المسيرة</a></li>
+    <li><a href="#recognition" onclick="closeMobile()">التقدير</a></li>
+    <li><a href="services-ar.html" onclick="closeMobile()">الخدمات</a></li>
+    <li><a href="#contact" onclick="closeMobile()">تواصل</a></li>
+  </ul>
+</div>
+
+<!-- ══════════════ HERO ══════════════ -->
+<section id="hero">
+  <div class="hero-river" aria-hidden="true">
+    <svg viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice">
+      <path d="M-50,700 C250,620 350,780 620,700 C860,630 900,500 1150,520 C1320,535 1380,470 1500,420"
+            stroke="var(--leaf)" stroke-width="1.2" opacity="0.35"/>
+      <path d="M-50,780 C300,730 420,830 700,790 C920,760 980,660 1200,650 C1360,645 1420,600 1520,560"
+            stroke="var(--peach)" stroke-width="1" opacity="0.25"/>
+    </svg>
+  </div>
+
+  <div class="hero-grid">
+    <div class="hero-copy">
+      <p class="hero-eyebrow reveal">مهندسة بيئية · قائدة مناخية</p>
+      <h1 class="reveal">تحويل المعرفة إلى فعل،
+        <em>وتحويل الحدود إلى جسور.</em>
+      </h1>
+      <p class="hero-lede reveal">
+        علياء شريف مهندسة بيئية وقائدة مناخية، شغوفة بدفع عجلة التنمية
+        المستدامة من خلال الهندسة والاستدامة والعمل الجماعي. تجمع بين
+        الخبرة التقنية والقيادة المناخية الإقليمية لتحقيق أثر بيئي
+        واجتماعي ملموس في منطقة الشرق الأوسط وشمال إفريقيا.
+      </p>
+      <div class="hero-roles reveal">
+        <span>متدربة هندسة بيئية، EcoConServ</span>
+        <span>مبعوثة مناخية، وزارة البيئة التركية</span>
+        <span>رئيسة البرامج والأثر، Green Gate 4 MENA Youth</span>
+      </div>
+      <div class="hero-actions reveal">
+        <a href="#impact" class="btn btn-primary">أبرز الأعمال</a>
+        <a href="#contact" class="btn btn-ghost">ابدأ محادثة</a>
+      </div>
+    </div>
+
+    <div class="hero-photo-wrap reveal">
+      <img src="1.jpeg" alt="صورة شخصية لعلياء شريف" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+      <div class="photo-fallback" style="display:none;">صورة شخصية — أضيفي الصورة 1.jpeg إلى هذا المجلد</div>
+      <div class="hero-tag-pill">
+        <span class="place">القاهرة <span class="arrow">↔</span> إسطنبول <span class="arrow">↔</span> بودابست</span>
+        <span class="note">جذور في ثلاث مدن</span>
+      </div>
+    </div>
+  </div>
+
+  <a href="#about" class="scroll-cue">
+    <span>مرري للأسفل</span>
+    <span class="line"></span>
+  </a>
+</section>
+
+<!-- ══════════════ ABOUT ══════════════ -->
+<section id="about">
+  <div class="container">
+    <div class="eyebrow reveal">نبذة</div>
+    <div class="about-layout">
+
+      <div class="about-media reveal">
+        <div class="about-portrait">
+          <img src="2.jpeg" alt="علياء شريف في حفل تخرج STEM" onerror="this.parentElement.style.background='linear-gradient(160deg, var(--peach), var(--cream-deep))'; this.remove();" />
+        </div>
+        <div class="about-credentials">
+          <div class="cred"><b>مقر الإقامة</b><span>القاهرة، مصر</span></div>
+          <div class="cred"><b>الدراسة</b><span>هندسة بيئية، بكالوريوس 2027</span></div>
+          <div class="cred"><b>اللغات</b><span>العربية، الإنجليزية، التركية</span></div>
+          <div class="cred"><b>حاليًا</b><span>EcoConServ للحلول البيئية</span></div>
+        </div>
+      </div>
+
+      <div class="about-copy">
+        <h2 class="section-title reveal">مسار تشكّل عند نقطة التقاء<br><em>الهندسة بالمناصرة.</em></h2>
+        <div style="margin-top:2rem;">
+          <p class="reveal">نشأت علياء في الجيزة، تحمل فضول العالِمة وحس البانية
+            في حل المشكلات الواقعية. هذا الحس قادها إلى إسطنبول، حيث تستكمل
+            دراستها في الهندسة البيئية بجامعة إسطنبول جراح باشا، ثم إلى
+            بودابست، حيث صقلت تكوينها التقني خلال برنامج تبادل Erasmus+
+            في علوم المياه بجامعة لودوفيكا للخدمة العامة.</p>
+
+          <p class="reveal">يمتد عملها اليوم ليشمل <strong>الاستشارات البيئية
+            والاجتماعية لمشروعات البنية التحتية والمشروعات الصناعية</strong>،
+            حيث ساهمت في إعداد دراسات ESIA وESDD وEIA وRAP، وتطوير
+            المقترحات الفنية، وورش التشاور المجتمعي، وأطر الإدارة البيئية
+            والاجتماعية. ومن خلال هذه التجارب، بَنَت أساسًا متينًا في
+            استشارات الاستدامة، وإشراك أصحاب المصلحة، والامتثال البيئي،
+            وتخطيط المشروعات.</p>
+
+          <p class="reveal">وخارج نطاق العمل الرسمي، تقود علياء منظمة
+            <strong>Green Gate 4 MENA Youth</strong> بصفتها رئيسة البرامج
+            والأثر، بعد أن تولّت سابقًا توسيع عمليات المنظمة كمديرة تنفيذية
+            للعمليات لتصل إلى <strong>أكثر من 500 قائد شاب في 22 دولة</strong>.
+            كما اختِيرت واحدة من <strong>200 مبعوث مناخي وطني</strong> في
+            تركيا، ومثّلت مصر كمندوبة شبابية في مؤتمر COY19 بباكو، وتتولى
+            حاليًا تنسيق لوجستيات COY21 تمهيدًا لمؤتمر COP31 في أنطاليا.
+            تجيد العمل بثلاث لغات: العربية والإنجليزية والتركية، وتؤمن بأن
+            أوضح صور الهندسة وأوضح صور المناصرة تنبعان من الحس ذاته:
+            الانتباه أولًا، ثم الفعل.</p>
+        </div>
+
+        <div class="stat-row">
+          <div class="stat-cell reveal">
+            <div class="stat-num">10+</div>
+            <div class="stat-label">دولة تم التفاعل معها</div>
+          </div>
+          <div class="stat-cell reveal">
+            <div class="stat-num">500+</div>
+            <div class="stat-label">قائد شاب تم ربطه بفرص</div>
+          </div>
+          <div class="stat-cell reveal">
+            <div class="stat-num">200</div>
+            <div class="stat-label">مبعوث مناخي وطني — وهي واحدة منهم</div>
+          </div>
+          <div class="stat-cell reveal">
+            <div class="stat-num">15+</div>
+            <div class="stat-label">مؤتمرًا ومنتدى تمت المشاركة فيها</div>
+          </div>
+          <div class="stat-cell reveal">
+            <div class="stat-num">3</div>
+            <div class="stat-label">لغات عمل، منطقة واحدة</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ EXPERTISE / SERVICES ══════════════ -->
+<section id="expertise" class="section-alt">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow reveal">الخبرات</div>
+        <h2 class="section-title reveal">حيث يلتقي العمل التقني<br><em>بالأثر الإنساني.</em></h2>
+      </div>
+      <p class="section-kicker reveal">أربعة مجالات للممارسة المهنية، كل منها
+        مبني على عمل مخبري تطبيقي، ومشروعات استشارية حية، وسنوات من
+        الانخراط في عملية الشباب التابعة لاتفاقية الأمم المتحدة الإطارية
+        بشأن تغير المناخ (UNFCCC).</p>
+    </div>
+
+    <div class="expertise-grid">
+      <div class="expertise-card reveal">
+        <div class="expertise-num">01</div>
+        <h3>الاستشارات البيئية واستشارات الاستدامة</h3>
+        <p>المساهمة في الدراسات البيئية وخدمات الاستشارات الفنية لمشروعات
+          البنية التحتية والمشروعات الصناعية على المستويين المحلي والدولي.
+          تشمل خبرتها إعداد تقييمات الأثر البيئي (EIA)، وتقييمات الأثر
+          البيئي والاجتماعي (ESIA)، ودراسات العناية الواجبة البيئية
+          والاجتماعية (ESDD)، وتطوير المقترحات الفنية، والامتثال البيئي،
+          وخطط إعادة التوطين (RAP)، ومؤشرات الأداء الرئيسية (KPIs)،
+          وإشراك أصحاب المصلحة عبر مختلف مراحل تطوير المشروع.</p>
+        <div class="expertise-tags">
+          <span>EIA</span><span>ESIA</span><span>ESDD</span><span>الامتثال البيئي</span>
+        </div>
+      </div>
+
+      <div class="expertise-card reveal">
+        <div class="expertise-num">02</div>
+        <h3>جودة المياه وتحليل مياه الصرف</h3>
+        <p>خبرة مخبرية في إجراء تجارب التخثير والتلبيد والترسيب والترشيح،
+          وتقييم مؤشرات BOD وCOD وTSS، لاقتراح تهيئات معالجة مناسبة
+          للعملاء الصناعيين.</p>
+        <div class="expertise-tags">
+          <span>BOD / COD / TSS</span><span>أنظمة الترشيح</span><span>GPS-X</span>
+        </div>
+      </div>
+
+      <div class="expertise-card reveal">
+        <div class="expertise-num">03</div>
+        <h3>السياسات المناخية ومناصرة الشباب</h3>
+        <p>تحويل العمليات المناخية الدولية إلى فرص حقيقية لمشاركة شبابية
+          فاعلة. يشمل عملها العمل كأحد المبعوثين المناخيين الوطنيين في
+          تركيا، وتمثيل مصر في COY19، وإلقاء كلمة رئيسية في LCOY تركيا،
+          وتنسيق لوجستيات COY21 تمهيدًا لـCOP31، وتصميم برامج إقليمية
+          أشركت أكثر من 150 قائدًا مناخيًا شابًا في منطقة الشرق الأوسط
+          وشمال إفريقيا.</p>
+        <div class="expertise-tags">
+          <span>UNFCCC / ACE</span><span>تصميم البرامج</span><span>التحدث أمام الجمهور</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ IMPACT / PORTFOLIO ══════════════ -->
+<section id="impact" class="section-alt">
+  <div class="container">
+    <div class="eyebrow reveal">أعمال مختارة</div>
+    <h2 class="section-title reveal">مشروعات تجاوزت<br><em>حدود الورق.</em></h2>
+
+    <div class="impact-grid">
+      <div class="impact-card impact-card--wide reveal">
+        <div class="impact-tag">قيادة شبابية</div>
+        <h3>Green Gate 4 MENA Youth</h3>
+        <p class="impact-desc">وسّعت العمليات بصفتها مديرة تنفيذية للعمليات،
+          ثم تولّت التوجيه البرامجي كرئيسة للبرامج والأثر — وصممت منهج
+          الزمالة المعتمد حاليًا لأكثر من 150 مشاركًا.</p>
+        <div class="impact-outcome">أكثر من 500 قائد شاب في أكثر من 10 دول تم ربطهم بفرص مناخية.</div>
+      </div>
+
+      <div class="impact-card reveal">
+        <div class="impact-tag">استشارات · مجال ممارسة</div>
+        <h3>الاستشارات البيئية والاجتماعية</h3>
+        <p class="impact-desc">المساهمة في عمليات ESIA وESDD وRAP لمشروعات
+          البنية التحتية والمشروعات الصناعية — من تطوير المقترحات الفنية
+          إلى الامتثال البيئي وتنسيق أصحاب المصلحة.</p>
+        <div class="impact-outcome">توثيق جاهز لمتطلبات الجهات الرقابية، مصمم وفق احتياجات الهندسة والمجتمع معًا.</div>
+      </div>
+
+      <div class="impact-card reveal">
+        <div class="impact-tag">استشارات · مجال ممارسة</div>
+        <h3>أداء المرافق وأطر مؤشرات الأداء</h3>
+        <p class="impact-desc">إعداد أدلة مؤشرات أداء SMART وإجراء تحليلات
+          الفجوات مقابل عقود إدارة المرافق، بما يضمن أن يظل الأداء
+          التشغيلي لمواقع الطاقة الصناعية والمتجددة قابلًا للقياس لا
+          مجرد طموح.</p>
+        <div class="impact-outcome">أطر أداء جاهزة للتسليم بين المقاولين.</div>
+      </div>
+
+      <div class="impact-card reveal">
+        <div class="impact-tag">استشارات · مجال ممارسة</div>
+        <h3>التشاور المجتمعي وإشراك أصحاب المصلحة</h3>
+        <p class="impact-desc">دعم ورش التشاور المجتمعي وعمليات إشراك أصحاب
+          المصلحة التي تضمن إبقاء المجتمعات المتأثرة على اطلاع ومسموعة
+          الرأي طوال مراحل تطوير المشروع.</p>
+        <div class="impact-outcome">عمليات إشراك تصمد أمام التدقيق المجتمعي والرقابي على حد سواء.</div>
+      </div>
+
+      <div class="impact-card impact-card--wide reveal">
+        <div class="impact-tag">منتدى إقليمي</div>
+        <h3>GreenX MENA Regional Youth Forum</h3>
+        <p class="impact-desc">بصفتها مديرة العمليات الداخلية والتنسيق، أدارت
+          فريقًا تطوعيًا متعدد الجنسيات عبر سير العمل والتواصل والجداول
+          الزمنية للمخرجات، خلف منتدى إقليمي بارز أُقيم في تونس في
+          أكتوبر 2025.</p>
+        <div class="impact-outcome">فعالية عابرة للحدود ومعقدة، أُنجزت في موعدها بواسطة فريق تطوعي موزّع جغرافيًا.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ JOURNEY ══════════════ -->
+<section id="journey">
+  <div class="container">
+    <div class="eyebrow reveal">المسيرة</div>
+    <h2 class="section-title reveal">المسار حتى الآن.</h2>
+
+    <div class="journey-wrap">
+      <div class="journey-line">
+        <svg viewBox="0 0 2 100" preserveAspectRatio="none">
+          <path d="M1,0 L1,100" />
+          <path class="drawn" d="M1,0 L1,100" />
+        </svg>
+      </div>
+
+      <div class="journey-item reveal">
+        <div class="journey-dot"></div>
+        <div class="journey-date">2019 – 2022</div>
+        <h3>الأساس</h3>
+        <p>دبلوم تعليم STEM من مدرسة الإسماعيلية الثانوية لـSTEM — ثلاثة
+          مشروعات تخرج تناولت تحديات بيئية حقيقية تواجه مصر، أرست نمطًا
+          دائمًا: التعلّم عبر الحل.</p>
+      </div>
+
+      <div class="journey-item reveal">
+        <div class="journey-dot"></div>
+        <div class="journey-date">2020 – 2021</div>
+        <h3>الخطوات الأولى نحو الأثر</h3>
+        <p>انضمت إلى الأكاديمية الصغرى التابعة لأكاديمية نيويورك للعلوم
+          وبرنامج 1000 Girls 1000 Futures، وأجرت بحثًا حول الأثر البيئي
+          لصناعة الموضة السريعة. حازت لقب أفضل زميلة في Emonovo، بعد
+          تسجيل أكثر من 590 ساعة عمل.</p>
+      </div>
+
+      <div class="journey-item reveal">
+        <div class="journey-dot"></div>
+        <div class="journey-date">سبتمبر 2022 – يوليو 2023</div>
+        <h3>عبور الحدود</h3>
+        <p>انتقلت إلى إسطنبول وأتمت برنامج TÖMER لإتقان اللغة التركية
+          بجامعة إسطنبول جراح باشا — لتصبح اللغة الجسر إلى كل ما تلا
+          ذلك.</p>
+      </div>
+
+      <div class="journey-item reveal">
+        <div class="journey-dot"></div>
+        <div class="journey-date">سبتمبر 2023 – حتى الآن</div>
+        <h3>الهندسة، بصورة رسمية</h3>
+        <p>التحقت ببرنامج بكالوريوس الهندسة البيئية بجامعة إسطنبول جراح
+          باشا (المتوقع 2027)، ليمنح ذلك عملها في المناصرة ركيزة تقنية.</p>
+      </div>
+
+      <div class="journey-item reveal">
+        <div class="journey-dot"></div>
+        <div class="journey-date">يونيو 2024 – حتى الآن</div>
+        <h3>بناء Green Gate</h3>
+        <p>انضمت إلى Green Gate 4 MENA Youth منذ يومها الأول — وساهمت في
+          تشكيل المنظمة من الصفر بصفتها مديرة تنفيذية للعمليات، ثم انتقلت
+          إلى منصب رئيسة البرامج والأثر — مع تنسيق لوجستيات COY21 لصالح
+          YOUNGO، والعمل كعضو في مجموعة عمل ACE.</p>
+      </div>
+
+      <div class="journey-item reveal">
+        <div class="journey-dot"></div>
+        <div class="journey-date">نوفمبر 2024</div>
+        <h3>على المسرح العالمي</h3>
+        <p>مثّلت مصر كمندوبة شبابية في COY19، المؤتمر التاسع عشر للشباب
+          حول تغير المناخ التابع للأمم المتحدة — مقعد على واحدة من أبرز
+          الطاولات في السياسة المناخية العالمية.</p>
+      </div>
+
+      <div class="journey-item reveal">
+        <div class="journey-dot"></div>
+        <div class="journey-date">2025</div>
+        <h3>مبعوثة، متحدثة، باحثة</h3>
+        <p>عُيّنت مبعوثة مناخية من قبل وزارة البيئة التركية. أتمت تدريبًا
+          مخبريًا في معامل البحث والتطوير بجامعة إسطنبول جراح باشا، وأدارت
+          عمليات منتدى GreenX MENA في تونس.</p>
+      </div>
+
+      <div class="journey-item reveal">
+        <div class="journey-dot"></div>
+        <div class="journey-date">فبراير – يونيو 2026</div>
+        <h3>برنامج تبادل Erasmus+، بودابست</h3>
+        <p>حصلت على منحة Erasmus+ كاملة لفصل دراسي تبادلي في علوم المياه
+          والهندسة البيئية بجامعة لودوفيكا للخدمة العامة. أتمت 9 مقررات
+          في الهندسة البيئية إلى جانب 3 مشروعات علمية، مع تدريب عملي على
+          قياسات معالجة المياه وعلم البيئة المائية — وتخرجت بمعدل
+          5.00/5.00.</p>
+      </div>
+
+      <div class="journey-item reveal">
+        <div class="journey-dot current"></div>
+        <div class="journey-date">يونيو 2026 – حتى الآن</div>
+        <h3>استشارات، في الميدان</h3>
+        <p>انضمت إلى EcoConServ للحلول البيئية في القاهرة كمتدربة هندسة
+          بيئية، لتوظّف سنوات من العمل التقني والمناصرة في مشروعات ESIA
+          وRAP ومؤشرات الأداء الفعلية. والمسيرة مستمرة.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ RECOGNITION / PRESENCE ══════════════ -->
+<section id="recognition" class="section-dark">
+  <div class="container">
+    <div class="eyebrow reveal">التقدير</div>
+    <h2 class="section-title reveal">موضع ثقة<br><em>لتبوّؤ مقعد على الطاولة.</em></h2>
+
+    <div class="recognition-grid">
+      <div class="recognition-card reveal">
+        <div class="recognition-icon">◈</div>
+        <h3>مبعوثة مناخية</h3>
+        <p>معيّنة من قبل وزارة البيئة والتحضر والتغير المناخي التركية —
+          كواحدة من 200 سفير وطني يربطون بين المجتمعات الجامعية والعمل
+          المناخي الحكومي، بالتعاون مع يونيسف تركيا.</p>
+      </div>
+      <div class="recognition-card reveal">
+        <div class="recognition-icon">◇</div>
+        <h3>متحدثة عامة</h3>
+        <p>متحدثة رئيسية في LCOY تركيا. متحدثة ضيفة في أيام الاستدامة
+          بجامعة جراح باشا. منسقة ومديرة جلسات في منتدى GreenX MENA
+          بتونس.</p>
+      </div>
+      <div class="recognition-card reveal">
+        <div class="recognition-icon">◈</div>
+        <h3>عضوة في YOUNGO</h3>
+        <p>عضوة فاعلة في أكبر تجمع شبابي عالمي ضمن اتفاقية الأمم المتحدة
+          الإطارية بشأن تغير المناخ (UNFCCC)، وتساهم في مجموعة عمل
+          التمكين المناخي (ACE)، وتنسّق لوجستيات COY21 تمهيدًا
+          لـCOP31.</p>
+      </div>
+    </div>
+
+    <div class="forums-list reveal">
+      <div class="forum-row">
+        <span class="fy">2025</span>
+        <span class="fn">منتدى GreenX MENA الإقليمي للشباب — منسقة ومديرة جلسات</span>
+        <span class="fl">تونس العاصمة، تونس</span>
+      </div>
+      <div class="forum-row">
+        <span class="fy">2025</span>
+        <span class="fn">LCOY تركيا — متحدثة رئيسية ومندوبة</span>
+        <span class="fl">قونيا، تركيا</span>
+      </div>
+      <div class="forum-row">
+        <span class="fy">2025</span>
+        <span class="fn">أيام الاستدامة بجراح باشا — متحدثة ضيفة</span>
+        <span class="fl">إسطنبول، تركيا</span>
+      </div>
+      <div class="forum-row">
+        <span class="fy">2024</span>
+        <span class="fn">COY19 — مندوبة شبابية، المؤتمر التاسع عشر للشباب حول تغير المناخ</span>
+        <span class="fl">باكو، أذربيجان</span>
+      </div>
+      <div class="forum-row">
+        <span class="fy">2024</span>
+        <span class="fn">أسبوع الاتحاد الأوروبي الأخضر — الشباب وريادة الأعمال</span>
+        <span class="fl">القاهرة، مصر</span>
+      </div>
+      <div class="forum-row">
+        <span class="fy">2023–24</span>
+        <span class="fn">منتدى TRT NEXT العالمي</span>
+        <span class="fl">إسطنبول، تركيا</span>
+      </div>
+      <div class="forum-row">
+        <span class="fy">2023</span>
+        <span class="fn">ورشة عمل منظمة الفاو لريادة الأعمال الزراعية الشبابية</span>
+        <span class="fl">الجيزة، مصر</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ SKILLS ══════════════ -->
+<section id="skills" class="section-alt">
+  <div class="container">
+    <div class="eyebrow reveal">الأدوات</div>
+    <h2 class="section-title reveal">الأدوات<br><em>التي تقف خلف العمل.</em></h2>
+
+    <div class="skills-layout">
+      <div>
+        <div class="skill-group reveal">
+          <h4>الهندسة والتحليل البيئي</h4>
+          <div class="skill-tags">
+            <span>تحليل معالجة مياه الصرف</span>
+            <span>تقييم BOD / COD / TSS</span>
+            <span>EIA / ESIA</span>
+            <span>تحليل دورة الحياة (LCA) والبصمة الكربونية</span>
+            <span>تقييم جودة المياه</span>
+            <span>SWMM · GPS-X</span>
+            <span>أنظمة ترشيح المياه</span>
+            <span>أساليب المختبرات البيئية</span>
+            <span>أخذ العينات والمسوحات الميدانية</span>
+            <span>تقييم أثر التلوث</span>
+            <span>الكتابة العلمية</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h4>الأدوات التقنية</h4>
+          <div class="skill-tags">
+            <span>AutoCAD</span>
+            <span>Python</span>
+            <span>QGIS</span>
+            <span>Microsoft Excel (متقدم)</span>
+            <span>Civil 3D (أساسي)</span>
+            <span>النمذجة البيئية</span>
+            <span>أساسيات نظم المعلومات الجغرافية (GIS)</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h4>السياسات والأطر المناخية</h4>
+          <div class="skill-tags">
+            <span>عمليات UNFCCC</span>
+            <span>إطار ACE</span>
+            <span>التوافق مع أهداف التنمية المستدامة (SDGs)</span>
+            <span>إشراك أصحاب المصلحة</span>
+            <span>الإلمام بالسياسات المناخية</span>
+            <span>أطر ESG</span>
+            <span>مناصرة الشباب المناخية</span>
+            <span>تقييم الاستدامة</span>
+            <span>تخطيط التحول الأخضر</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h4>البيانات والتفكير المنظومي</h4>
+          <div class="skill-tags">
+            <span>تحليل البيانات</span>
+            <span>المنهج المنظومي</span>
+            <span>منهجية البحث</span>
+            <span>كتابة التقارير</span>
+            <span>صياغة المشكلات</span>
+            <span>قياس الأثر</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h4>إدارة البرامج</h4>
+          <div class="skill-tags">
+            <span>أطر المتابعة والتقييم (M&E)</span>
+            <span>التعاون بين الثقافات</span>
+            <span>التحدث أمام الجمهور</span>
+            <span>إدارة الفرق</span>
+            <span>تصميم البرامج</span>
+            <span>إدارة العمليات</span>
+            <span>التعبئة المجتمعية</span>
+            <span>التواصل الرقمي</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="lang-card reveal">
+        <h4>اللغات</h4>
+        <div class="lang-item">
+          <div class="lang-info"><span>العربية</span><span>اللغة الأم</span></div>
+          <div class="lang-bar"><div class="lang-fill" data-width="100%"></div></div>
+        </div>
+        <div class="lang-item">
+          <div class="lang-info"><span>الإنجليزية</span><span>C1 — بطلاقة</span></div>
+          <div class="lang-bar"><div class="lang-fill" data-width="90%"></div></div>
+        </div>
+        <div class="lang-item">
+          <div class="lang-info"><span>التركية</span><span>B2 — متوسط متقدم</span></div>
+          <div class="lang-bar"><div class="lang-fill" data-width="70%"></div></div>
+        </div>
+        <div class="lang-item">
+          <div class="lang-info"><span>الفرنسية</span><span>A1 — مبتدئة</span></div>
+          <div class="lang-bar"><div class="lang-fill" data-width="15%"></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ CTA ══════════════ -->
+<section id="cta">
+  <div class="container">
+    <div class="cta-band reveal">
+      <h2>هل لديك مشروع يحتاج<br><em>الهندسة والعناية؟</em></h2>
+      <p>سواء كان الأمر يتعلق بتقييم بيئي، أو إطار مؤشرات أداء، أو حوار
+        حول السياسات المناخية — تظل علياء منفتحة دائمًا على أي عمل يأخذ
+        العلم والناس على محمل الجد.</p>
+      <a href="#contact" class="btn btn-primary">تواصل معها</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ CONTACT ══════════════ -->
+<section id="contact">
+  <div class="container">
+    <div class="eyebrow reveal">تواصل</div>
+    <h2 class="section-title reveal">لنبنِ معًا<br><em>شيئًا ذا معنى.</em></h2>
+
+    <div class="contact-layout">
+      <div class="contact-info reveal">
+        <div class="contact-item">
+          <div class="label">البريد الإلكتروني</div>
+          <a class="value" href="mailto:aliasherif164@gmail.com">aliasherif164@gmail.com</a>
+        </div>
+        <div class="contact-item">
+          <div class="label">مقر الإقامة</div>
+          <div class="value">القاهرة، مصر</div>
+        </div>
+        <div class="contact-item">
+          <div class="label">منصات أخرى</div>
+          <div class="contact-social">
+            <a href="https://linkedin.com/in/alia-sherif" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </a>
+            <a href="mailto:aliasherif164@gmail.com" aria-label="البريد الإلكتروني">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <form class="contact-form reveal" id="contactForm">
+        <!-- Get a free access key at https://web3forms.com (delivered instantly to
+             aliasherif164@gmail.com, no account needed) and paste it below. -->
+        <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_ACCESS_KEY" />
+        <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off" />
+        <div class="form-row">
+          <div class="field">
+            <label for="fname">الاسم</label>
+            <input type="text" id="fname" name="name" required />
+          </div>
+          <div class="field">
+            <label for="femail">البريد الإلكتروني</label>
+            <input type="email" id="femail" name="email" required />
+          </div>
+        </div>
+        <div class="field">
+          <label for="fsubject">الموضوع</label>
+          <input type="text" id="fsubject" name="subject" placeholder="ما موضوع رسالتك؟" />
+        </div>
+        <div class="field">
+          <label for="fmessage">الرسالة</label>
+          <textarea id="fmessage" name="message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">إرسال الرسالة</button>
+        <p class="form-note">تصل رسالتك مباشرة إلى بريد علياء الإلكتروني.</p>
+        <p class="form-submit-msg" id="formMsg">شكرًا لك — تم إرسال رسالتك.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ FOOTER ══════════════ -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">علياء <span>شريف</span></div>
+    <div class="footer-links">
+      <a href="#about">نبذة</a>
+      <a href="#impact">الأثر</a>
+      <a href="#contact">تواصل</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>مهندسة بيئية · القاهرة · إسطنبول · بودابست</span>
+    <span>© 2026 علياء شريف</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
