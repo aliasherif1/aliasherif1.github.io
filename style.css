@@ -70,24 +70,6 @@ html[data-theme="dark"] .skill-tags span{
 }
 
 /* ============================================================
-   ARABIC / RTL SUPPORT
-============================================================ */
-html[lang="ar"]{
-  --font-display: 'Alexandria', sans-serif;
-  --font-body: 'IBM Plex Sans Arabic', sans-serif;
-  --font-mono: 'IBM Plex Sans Arabic', sans-serif;
-  direction: rtl;
-}
-html[lang="ar"] body{ direction: rtl; }
-html[dir="rtl"] .nav-links a::after{ left: auto; right: 0; }
-html[dir="rtl"] .journey-line{ left: auto; right: 11px; }
-html[dir="rtl"] .journey-item{ padding-left: 0; padding-right: 3.2rem; }
-html[dir="rtl"] .journey-dot{ left: auto; right: 4px; }
-html[dir="rtl"] .hero-eyebrow, html[dir="rtl"] .eyebrow{ direction: rtl; }
-html[dir="rtl"] .btn-ghost{ border-bottom: 1px solid var(--charcoal); }
-html[dir="rtl"] .form-note, html[dir="rtl"] .form-submit-msg{ text-align: right; }
-
-/* ============================================================
    RESET
 ============================================================ */
 *, *::before, *::after{ box-sizing: border-box; }
